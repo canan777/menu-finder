@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Bootstrap Css CDN -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
+    />
+    <!-- Still Dosyası -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="p-2">
+      <h1 class="text-center">Menümüz</h1>
+
+      <!-- Menü Filtre -->
+
+      <div class="d-flex justify-content-center gap-3">
+        <div class="btn btn-outline-dark filter-btn" data-id="all">Hepsi</div>
+        <div class="btn btn-outline-dark filter-btn" data-id="breakfast">Kahvaltı</div>
+        <div class="btn btn-outline-dark filter-btn" data-id="lunch">Öğle Yemeği</div>
+        <div class="btn btn-outline-dark filter-btn" data-id="shakes">İçecekler</div>
+      </div>
+      <!-- Menü Filtre -->
+
+      <div
+        class="row row-cols-1 row-cols-md-2 justify-content-center gap-3 my-5"
+        id="menu-container"
+      ></div>
+    </div>
+
+    <!-- Script Dosyası -->
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

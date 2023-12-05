@@ -1,0 +1,26 @@
+@media (min-width:770px){
+    #card{
+        max-width: 500px;
+    }
+
+    #card img{
+        width: 150px;
+        height: 100px;
+        object-fit: cover;
+    }
+}
+
+@media( max-widht: 770px){
+    #card{
+        max-width: 400px;
+    }
+
+    #card img{
+        width: 100%;
+        height: 250px;
+    }
+}
+
+#card p{
+    font-size: 15px;
+}
